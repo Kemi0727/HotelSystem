@@ -1,4 +1,4 @@
-package controller;
+package com.kemilly.hotel.controllers;
 
 /*
  * Responsável pela navegação

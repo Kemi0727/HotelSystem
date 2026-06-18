@@ -1,6 +1,6 @@
-package dao;
+package com.kemilly.hotel.dao;
 
-import model.Hospede;
+import com.kemilly.hotel.model.Hospede;
 import java.util.List;
 
 /*
@@ -20,4 +20,7 @@ public interface HospedeDAO {
 
     // Retornar todos os hóspedes cadastrados
     List<Hospede> listar();
+
+    // Buscar um hóspede pelo ID
+    Hospede buscarPorId(int id);
 }

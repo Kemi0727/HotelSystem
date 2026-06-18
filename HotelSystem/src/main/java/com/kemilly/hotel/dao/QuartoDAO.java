@@ -1,6 +1,6 @@
-package dao;
+package com.kemilly.hotel.dao;
 
-import model.Quarto;
+import com.kemilly.hotel.model.Quarto;
 import java.util.List;
 
 /*
@@ -20,4 +20,8 @@ public interface QuartoDAO {
 
     // Listar quartos
     List<Quarto> listar();
+
+    //Buscar pelo número do quarto
+    Quarto buscarPorNumero(int numero);
+
 }

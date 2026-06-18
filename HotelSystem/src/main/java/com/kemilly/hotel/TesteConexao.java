@@ -1,6 +1,6 @@
-package app;
+package com.kemilly.hotel;
 
-import utils.Conexao;
+import com.kemilly.hotel.utils.Conexao;
 
 /*
  * Classe utilizada para testar

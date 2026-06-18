@@ -1,4 +1,4 @@
-package model;
+package com.kemilly.hotel.model;
 
 import java.time.LocalDate;
 

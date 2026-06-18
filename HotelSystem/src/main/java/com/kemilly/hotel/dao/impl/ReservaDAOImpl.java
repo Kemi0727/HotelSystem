@@ -1,7 +1,7 @@
-package dao.impl;
+package com.kemilly.hotel.dao.impl;
 
-import dao.ReservaDAO;
-import model.Reserva;
+import com.kemilly.hotel.dao.ReservaDAO;
+import com.kemilly.hotel.model.Reserva;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -31,5 +31,10 @@ public class ReservaDAOImpl implements ReservaDAO {
     @Override
     public List<Reserva> buscarPorHospede(int idHospede) {
         return new ArrayList<>();
+    }
+
+    @Override
+    public Reserva buscarPorId(int id) {
+        return null;
     }
 }

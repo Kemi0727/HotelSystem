@@ -1,6 +1,6 @@
-package dao;
+package com.kemilly.hotel.dao;
 
-import model.Reserva;
+import com.kemilly.hotel.model.Reserva;
 import java.util.List;
 
 /*
@@ -23,4 +23,7 @@ public interface ReservaDAO {
 
     // Buscar reservas de um hóspede específico
     List<Reserva> buscarPorHospede(int idHospede);
+
+    // Buscar reserva pelo Id
+    Reserva buscarPorId(int id);
 }

@@ -1,7 +1,7 @@
-package dao.impl;
+package com.kemilly.hotel.dao.impl;
 
-import dao.QuartoDAO;
-import model.Quarto;
+import com.kemilly.hotel.dao.QuartoDAO;
+import com.kemilly.hotel.model.Quarto;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,5 +26,10 @@ public class QuartoDAOImpl implements QuartoDAO {
     @Override
     public List<Quarto> listar() {
         return new ArrayList<>();
+    }
+
+    @Override
+    public Quarto buscarPorNumero(int numero) {
+        return null;
     }
 }

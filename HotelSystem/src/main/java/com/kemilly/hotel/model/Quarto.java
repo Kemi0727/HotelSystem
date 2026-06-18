@@ -1,11 +1,11 @@
-package model;
+package com.kemilly.hotel.model;
 
 public class Quarto {
 
     private int numero;
-    private String tipo;
+    private TipoQuarto tipo;
     private double valorDiaria;
-    private String status;
+    private StatusQuarto status;
 
     /*
      Classe que representa
@@ -14,7 +14,7 @@ public class Quarto {
     public Quarto() {
     }
 
-    public Quarto(int numero, String tipo, double valorDiaria, String status) {
+    public Quarto(int numero, TipoQuarto tipo, double valorDiaria, StatusQuarto status) {
         this.numero = numero;
         this.tipo = tipo;
         this.valorDiaria = valorDiaria;
@@ -29,11 +29,11 @@ public class Quarto {
         this.numero = numero;
     }
 
-    public String getTipo() {
+    public TipoQuarto getTipo() {
         return tipo;
     }
 
-    public void setTipo(String tipo) {
+    public void setTipo(TipoQuarto tipo) {
         this.tipo = tipo;
     }
 
@@ -45,11 +45,11 @@ public class Quarto {
         this.valorDiaria = valorDiaria;
     }
 
-    public String getStatus() {
+    public StatusQuarto getStatus() {
         return status;
     }
 
-    public void setStatus(String status) {
+    public void setStatus(StatusQuarto status) {
         this.status = status;
     }
 

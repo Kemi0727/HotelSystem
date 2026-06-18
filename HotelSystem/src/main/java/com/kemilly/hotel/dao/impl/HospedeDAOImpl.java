@@ -1,7 +1,7 @@
-package dao.impl;
+package com.kemilly.hotel.dao.impl;
 
-import dao.HospedeDAO;
-import model.Hospede;
+import com.kemilly.hotel.dao.HospedeDAO;
+import com.kemilly.hotel.model.Hospede;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,5 +30,10 @@ public class HospedeDAOImpl implements HospedeDAO {
     @Override
     public List<Hospede> listar() {
         return new ArrayList<>();
+    }
+
+    @Override
+    public Hospede buscarPorId(int id) {
+        return null;
     }
 }
